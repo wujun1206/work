@@ -10,3 +10,6 @@ if (!isTaskRoot()) {
 				return;
 			}
 		}
+		
+参见问题描述
+http://www.ithao123.cn/content-1356144.html
