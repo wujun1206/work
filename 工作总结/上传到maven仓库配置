@@ -1,0 +1,28 @@
+apply plugin: 'maven'
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: "maven仓库路径地址") {//(1)
+                authentication(userName: "name", password: "password")
+            }
+            pom.version = '1.0.1'//版本
+            pom.groupId = 'com.saike.android.mongohybrid'
+            pom.artifactId = 'HybridSDK'
+            pom.packaging = 'aar'//打包类型
+        }
+    }
+}
+
+
+////引入
+从maven库中引入
+
+
+repositories {
+    maven {
+        url "maven仓库路径地址"//地址与上面（1）标注相同
+    }
+}
+dependencies {
+    compile 'com.saike.android.mongohybrid:HybridSDK:1.0.+'//添加依赖
+}
