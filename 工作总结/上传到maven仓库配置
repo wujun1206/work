@@ -13,6 +13,8 @@ uploadArchives {
     }
 }
 
+wujun@LH900350 MINGW64 /f/LightBundle_Android_SDK/HybridSDK (0.0.1)
+$ ./gradlew uploadArchives
 
 ////引入
 从maven库中引入
