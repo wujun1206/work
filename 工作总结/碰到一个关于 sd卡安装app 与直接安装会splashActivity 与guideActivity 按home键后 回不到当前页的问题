@@ -1,5 +1,5 @@
 
-Í¨¹ıÏÂÃæ´úÂëÅĞ¶Ï ÊÇÕ»µ×
+Í¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ğ¶ï¿½ ï¿½ï¿½Õ»ï¿½ï¿½
 if (!isTaskRoot()) {
 			final Intent intent = getIntent();
 			if (intent.hasCategory(Intent.CATEGORY_LAUNCHER) && Intent.ACTION_MAIN.equals(intent.getAction())) {
@@ -9,5 +9,5 @@ if (!isTaskRoot()) {
 			}
 		}
 
-²Î¼ûÎÊÌâÃèÊö
+ï¿½Î¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 http://www.ithao123.cn/content-1356144.html
